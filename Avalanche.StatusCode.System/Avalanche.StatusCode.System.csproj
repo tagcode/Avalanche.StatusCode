@@ -7,7 +7,7 @@
     <Company>Avalanche Information Technology Oy</Company>
     <Copyright>Toni Kalajainen</Copyright>
     <RootNamespace>Avalanche.StatusCode</RootNamespace>
-    <Version>0.1.2</Version>
+    <Version>0.1.3</Version>
     <ImplicitUsings>enable</ImplicitUsings>
     <Title>Avalanche.StatusCode.System</Title>
     <Description>System message descriptions.</Description>
@@ -30,8 +30,8 @@
     <RestoreAdditionalProjectSources>https://avalanche.fi/Avalanche.Core/nupkg/index.json</RestoreAdditionalProjectSources>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Avalanche.Message.Abstractions" Version="0.1.2" />
-    <PackageReference Include="Avalanche.Message" Version="0.1.2" />
+    <PackageReference Include="Avalanche.Message.Abstractions" Version="0.1.3" />
+    <PackageReference Include="Avalanche.Message" Version="0.1.3" />
   </ItemGroup>
   <ItemGroup>
     <None Update="LICENSE.txt">
